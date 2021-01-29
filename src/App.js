@@ -1,54 +1,89 @@
-import React,{useState,useEffect} from 'react'
-import MovieList from "./components/movieList";
-import SearchBar from "./components/searchBar";
-import Header from "../src/components/header";
-import List from "./Pages/List";
-import Movie from "./Pages/movie"
+import Header from "./Components/header";
+import './App.css';
+import film from '../src/images/film.jpg'
+import {BrowserRouter as Router,Switch,Route, Link} from "react-router-dom";
 
+import {} from 'react-router-dom';
 
 function App() {
-  const [movies, setMovies] = useState([]);
-  const [searchValue,setSearchValue] = useState('all');
-
-  const getMovieRequest = async (searchValue) => {
-
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=d0628be2`
-
-    const response = await fetch(url);
-    const responseJson =await response.json()
-
-    if(responseJson.Search){
-
-      setMovies(responseJson.Search);
-    }
-
-  }
-
-  useEffect(()=> {
-
-    getMovieRequest(searchValue)
-
-  },[searchValue])
 
   return (
-    
-    <div className="App bg-dark">
-      <Header/>
-      <div className={`container`}>
-        <div className={`row`}>
-          <SearchBar searchValue={searchValue} setSearchValue={setSearchValue}/>
-        </div>
-        <div className={`row d-flex`}>
-            <MovieList movies={movies}/>
-        </div>
-      </div>
+    <div className="App">
+
+      <Router>
+        <Switch>
+          <Route path={"/"}>
+            <List/>
+          </Route>
+          <Route path={"/movie"}>
+            <Movie/>
+          </Route>
+        </Switch>
+      </Router>
+
+
     </div>
-
-
-
-
-
   );
 }
+
+
+const List = () => {
+
+  return (
+    <div className={`container`}>
+
+      <Header/>
+
+      <Link to={"/"} component={List}>Movies</Link>
+
+      <div className={`row g-0`}>
+
+        <div className={`col-xl-4 p-3`}>
+          <div><img src={film} style={{width:"100%"}}/></div>
+          <div className={`text-start`}>
+            <h4>Movie Name</h4>
+            <p>1999</p>
+          </div>
+        </div>
+
+
+
+      <div className={`col-xl-4 p-3`}>
+          <div><img src={film} style={{width:"100%"}}/></div>
+          <div className={`text-start`}>
+            <h4>Movie Name</h4>
+            <p>1999</p>
+        </div>
+      </div>
+
+      <div className={`col-xl-4 p-3`}>
+          <div><img src={film} style={{width:"100%"}}/></div>
+          <div className={`text-start`}>
+            <h4>Movie Name</h4>
+            <p>1999</p>
+        </div>
+      </div>
+
+      </div>
+
+
+
+    </div>
+  )
+
+}
+
+
+const Movie = () => {
+
+
+  <div>
+    <Header/>
+  </div>
+
+}
+
+
+
 
 export default App;

@@ -1,29 +1,25 @@
-import logo from "../images/bilyoner.png"
-
+import logo from '../images/bilyoner.png'
 
 const Header = () => {
 
-    return(
+
+  return(
+    <div className={`container-fluid`} style={{backgroundColor:"#FFFBD2"}}>
 
 
-        <>
-    <div className={`container-fluid g-0 h-100 bg-warning text-center`}>
+      <div className={`w-75 d-flex align-items-center justify-content-between px-5 flex-wrap mx-auto`}>
         <img src={logo}/>
+
+        <div className={`text-start`}>
+          <h3 className={`fs-4`}>Mehmet Arda Çelik</h3>
+          <p>Bilyoner Case Study</p>
+        </div>
+      </div>
+
+
+
     </div>
-
-    <nav style={{backgroundColor:'#16971B'}} aria-label="breadcrumb">
-      <ol className="breadcrumb">
-        <li className="breadcrumb-item"><a className="text-white" href="#">Library</a></li>
-        <li className="breadcrumb-item text-white active" aria-current="page">Movie</li>
-      </ol>
-    </nav>
-  </>
-
-
-    )
-
+  )
 }
 
-export default Header;
-
-
+export default Header
