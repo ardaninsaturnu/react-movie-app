@@ -1,16 +1,10 @@
-import {combineReducers} from "redux";
-import movieReducer from "./movieReducer";
-import movieListReducer from "./movieListReducer";
+import { combineReducers } from 'redux';
+import searchReducer from './searchReducer';
 
+export default combineReducers({
+    movies: searchReducer
+});
 
-const reducers = combineReducers({
-
-    movieReducer,
-    movieListReducer
-
-})
-
-export default reducers;
 
 
 

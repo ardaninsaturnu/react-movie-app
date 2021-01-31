@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a759d35-f786-4071-a05f-6821de847472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/fetchData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/movieActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/movieListReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/movieReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/searchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/actions/searchActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/searchReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/spinner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/List/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/movie/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/actionTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/fetchData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/movieActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/configureStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/movieListReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/movieReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/searchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/searchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +59,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\react-movie-app\src\components\Spinner" />
+      <recent name="C:\Users\Lenovo\Desktop\react-movie-app\src\Redux" />
       <recent name="C:\Users\Lenovo\Desktop\a\react-movie-app\src\components\SearchBar" />
       <recent name="C:\Users\Lenovo\Desktop\a\react-movie-app\src\components\Header" />
     </key>
@@ -77,6 +81,9 @@
       <workItem from="1611746380033" duration="1398000" />
       <workItem from="1611950422838" duration="433000" />
       <workItem from="1611981896856" duration="28503000" />
+      <workItem from="1612055969444" duration="20991000" />
+      <workItem from="1612094900925" duration="9000" />
+      <workItem from="1612094920689" duration="1479000" />
     </task>
     <servers />
   </component>
