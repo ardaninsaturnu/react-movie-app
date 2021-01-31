@@ -1,0 +1,12 @@
+.movie {
+    padding: 3rem;
+}
+
+.movie a {
+
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}

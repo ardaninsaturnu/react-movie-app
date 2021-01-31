@@ -1,10 +1,10 @@
-import logo from '../images/bilyoner.png'
+import logo from '../../images/bilyoner.png'
 
-const Header = () => {
+const HeaderComponent = () => {
 
 
-  return(
-    <div className={`container-fluid`} style={{backgroundColor:"#FFFBD2"}}>
+  return (
+    <div className={`container-fluid`} style={{backgroundColor: "#FFFBD2"}}>
 
 
       <div className={`w-75 d-flex align-items-center justify-content-between px-5 flex-wrap mx-auto`}>
@@ -17,9 +17,8 @@ const Header = () => {
       </div>
 
 
-
     </div>
   )
-}
+};
 
-export default Header
+export default HeaderComponent
